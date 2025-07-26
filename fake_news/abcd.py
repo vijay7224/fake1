@@ -5,6 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score
 import joblib
 
+
 #-----data load-------
 data=pd.read_csv("C:\\Users\\payal\\Desktop\\training datasets\\True.csv")
 data1=pd.read_csv("C:\\Users\\payal\\Desktop\\training datasets\\Fake.csv")
